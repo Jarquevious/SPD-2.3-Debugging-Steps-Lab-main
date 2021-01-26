@@ -19,8 +19,7 @@ Exercise 2
 
 def contains_3_consecutive(list_of_nums):
     """Return True if the list contains 3 consecutive numbers each increasing by 1."""
-    # Responsible for iterating the entire list until it reaches that last index. -2 means interate at the second to last index 
-    # Range(len()) gives num of 
+    # Responsible for iterating the entire list until it reaches the seond to last index. 
     for i in range(0, len(list_of_nums) - 2):
         # List of nums starting 
         if (list_of_nums[i+1] == list_of_nums[i] + 1 and
